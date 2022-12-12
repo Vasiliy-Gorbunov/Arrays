@@ -2,7 +2,8 @@ public class Main {
     public static void main(String[] args) {
         //task1();
         //task2();
-        task3();
+        //task3();
+        task4();
     }
 
     public static void task1() {
@@ -93,6 +94,27 @@ public class Main {
                 System.out.print(", ");
             } else System.out.println();
         }
+    }
+
+    public static void task4() {
+        System.out.println("Задание 4:");
+        int[] first = new int[3];
+        first[0] = 1;
+        first[1] = 2;
+        first[2] = 3;
+
+        for (int i = 0; i < first.length; i++) {
+            if (first[i] % 2 != 0){
+                first[i] += 1;
+            }
+        }
+
+        /*for (int i = 0; i < 3; i++) {
+            System.out.print(first[i]);
+            if (i < 2) {
+                System.out.print(", ");
+            } else System.out.println();
+        }*/
     }
 }
 
