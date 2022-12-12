@@ -109,12 +109,12 @@ public class Main {
             }
         }
 
-        /*for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.print(first[i]);
             if (i < 2) {
                 System.out.print(", ");
             } else System.out.println();
-        }*/
+        }
     }
 }
 
